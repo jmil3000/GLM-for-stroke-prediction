@@ -5,7 +5,7 @@ import statsmodels.api as sm
 from sklearn.metrics import confusion_matrix, classification_report
 
 # Load the dataset (full path file to avoid errors)
-df = pd.read_csv("/Users/jordanmiller/Documents/Projects/GLM/stroke_data.csv")
+df = pd.read_csv("path")
 
 # Remove the "id" column 
 df = df.drop(columns=["id"])
